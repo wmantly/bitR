@@ -41,12 +41,14 @@ create a file named api_info.py in app bmapi with this dictionary:
 
 To enable the API, copy and paste these lines into the bitmessagesettings section of the keys.dat file. Note that the values <username> and <password> below are merely examples, and should be replaced by values that cannot feasibly be guessed:
 
-`apienabled = true
+```
+daemon = true
+apienabled = true
 apiport = 8442
 apiinterface = 127.0.0.1
 apiusername = <username> 
 apipassword = <password>
-`
+``` 
 
 Should be good to go.  To start server,
 
