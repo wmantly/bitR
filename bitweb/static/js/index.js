@@ -1,3 +1,5 @@
+// comment
+
 var authorize = function(event, string, form) {
         event.preventDefault()        
         var loginInfo = $( form ).serializeObject();
